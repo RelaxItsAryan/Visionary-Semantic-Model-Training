@@ -34,7 +34,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ============== TACTICAL DESERT THEME (Custom CSS) ==============
+# TACTICAL DESERT THEME 
 st.markdown("""
 <style>
     /* Main background - Deep Charcoal */
@@ -210,7 +210,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ============== CLASS DEFINITIONS ==============
+# CLASS DEFINITIONS 
 CLASS_NAMES = [
     "Lush Bushes",           # 0
     "Trees",     # 1
@@ -220,7 +220,7 @@ CLASS_NAMES = [
     "Flowers",         # 5
     "Logs",            # 6
     "Rocks",           # 7
-    "Landscape",       # 8 - SAFE
+    "Landscape",       # 8 
     "Sky"              # 9
 ]
 
@@ -241,7 +241,7 @@ CLASS_COLORS = {
 OBSTACLE_CLASSES = [4, 6, 7]  # Ground Clutter, Logs, Rocks
 SAFE_CLASSES = [8]  # Landscape
 
-# ============== MODEL DEFINITION ==============
+# MODEL DEFINITION 
 # EXACT architecture from train_v7_fullpower.py
 class SegmentationHeadConvNeXt(nn.Module):
     def __init__(self, in_channels, out_channels, tokenW, tokenH):
