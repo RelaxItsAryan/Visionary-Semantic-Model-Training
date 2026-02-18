@@ -4,9 +4,25 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://visionary-semantic-model-training.streamlit.app/)
 
-## 🚀 Live Demo
+This project is a Machine Learning-based Image Classification System deployed using Streamlit.
+It classifies desert images into the following categories:
+-Trees
+-Lush Bushes
+-Dry Grass
+-Dry Bushes
+-Ground Clutter
+-Flowers
+-Logs
+-Rocks
+-Landscape
+-Sky
 
-Run locally:
+The model was trained on a synthetic desert dataset generated from Falcon’s Digital Twin platform
+
+## How to Test
+1. Go to the Deployed link and can use this
+2. or can run locally
+3. Run locally:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
@@ -47,7 +63,7 @@ streamlit run app.py
 
 - **Backbone**: DINOv2 ViT-B/14 (768-dim embeddings)
 - **Decoder**: ConvNeXt-style segmentation head
-- **Framework**: PyTorch 2.x with CUDA
+- **Framework**: PyTorch 2.0+ with CUDA
 - **UI**: Streamlit + Plotly
 
 ## 📁 Files
@@ -65,3 +81,4 @@ streamlit run app.py
 
 ---
 *Powered by DINOv2 + PyTorch*
+collaborators: Aryan Amit Arya, Prateek Das, Dilisha, Rakshit Raj.
