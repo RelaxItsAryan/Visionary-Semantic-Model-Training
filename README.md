@@ -2,7 +2,7 @@
 
 **Duality AI Falcon Platform | UGV Desert Navigation | Team Visionary**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://your-app-url.streamlit.app](https://visionary-semantic-model-training.streamlit.app/))
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://visionary-semantic-model-training.streamlit.app/)
 
 ## 🚀 Live Demo
 
