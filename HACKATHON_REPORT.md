@@ -145,6 +145,15 @@ Training Images:
 | Ensemble + TTA | - | - | 0.45+ (est.) |
 
 ---
+## 3.4 Inference Speed
+![WhatsApp Image 2026-02-19 at 01 37 26](https://github.com/user-attachments/assets/b26cb538-5646-4cc7-9476-d2e0a729fb7a)
+**Maximum-45 ms per image**
+**<br>Minimum-37 ms per image**
+
+## 3.5 Loss Trend
+<img width="1540" height="823" alt="image" src="https://github.com/user-attachments/assets/25358bbf-e61a-4de8-a036-50ff85f24c18" />
+
+
 
 # 4. Challenges & Solutions
 
