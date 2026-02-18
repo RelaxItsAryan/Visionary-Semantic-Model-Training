@@ -1,4 +1,4 @@
-# 🎯 Mission Control - Offroad Semantic Segmentation
+# 🎯 Objective - Offroad Semantic Segmentation
 
 **Duality AI Falcon Platform | UGV Desert Navigation | Team Visionary**
 
@@ -6,16 +6,17 @@
 
 This project is a Machine Learning-based Image Classification System deployed using Streamlit.
 It classifies desert images into the following categories:
+
 -Trees
--Lush Bushes
--Dry Grass
--Dry Bushes
--Ground Clutter
--Flowers
--Logs
--Rocks
--Landscape
--Sky
+<br>-Lush Bushes
+<br>-Dry Grass
+<br>-Dry Bushes
+<br>-Ground Clutter
+<br>-Flowers
+<br>-Logs
+<br>-Rocks
+<br>-Landscape
+<br>-Sky
 
 The model was trained on a synthetic desert dataset generated from Falcon’s Digital Twin platform
 
