@@ -14,7 +14,7 @@
 Team Visionary presents a state-of-the-art semantic segmentation solution for off-road terrain classification. Our approach leverages **DINOv2 (ViT-B/14)** as a powerful pretrained backbone combined with a custom **ConvNeXt-style segmentation head**, achieving robust pixel-wise classification across 10 terrain classes.
 
 **Key Achievements:**
-- Best Validation IoU: **0.43+**
+- Best Validation IoU: **0.45+**
 - Training Time: ~2.5 min/epoch on RTX 4060
 - Inference Speed: <2 sec/image with TTA
 - Full ensemble pipeline with Test-Time Augmentation
